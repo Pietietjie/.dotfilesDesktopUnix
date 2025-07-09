@@ -24,6 +24,11 @@
         path: unix_desktop/kde/gtk-4.0/
         create: true
         force: true
+    ~/.local/share/color-schemes/:
+        relink: true
+        path: unix_desktop/kde/color-schemes/
+        create: true
+        force: true
     ~/.config/gtk-3.0/:
         relink: true
         path: unix_desktop/kde/gtk-3.0/
