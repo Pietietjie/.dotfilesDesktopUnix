@@ -1,0 +1,6 @@
+- link:
+    ~/test:
+        relink: true
+        path: unix_desktop/test
+        create: true
+
