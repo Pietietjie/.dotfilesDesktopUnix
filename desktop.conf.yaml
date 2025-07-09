@@ -4,11 +4,6 @@
         path: unix_desktop/kde/kdeglobals
         create: true
         force: true
-    ~/.config/kwinrc:
-        relink: true
-        path: unix_desktop/kde/kwinrc
-        create: true
-        force: true
     ~/.config/kded5rc:
         relink: true
         path: unix_desktop/kde/kded5rc

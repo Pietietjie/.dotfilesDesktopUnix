@@ -133,8 +133,7 @@ ForegroundPositive=179,225,163
 ForegroundVisited=173,142,230
 
 [General]
-ColorScheme=TokyoNight
-ColorSchemeHash=0594cdbf8684a5ef175629572f86003b65badc3d
+ColorSchemeHash=d7bb305b91e7dd55dd16808f6dbc4c8d48b8d305
 
 [KShortcutsDialog Settings]
 Dialog Size=600,480
