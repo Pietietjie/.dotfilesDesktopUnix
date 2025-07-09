@@ -1,0 +1,6 @@
+ark
+dolphin
+htop
+kate
+plasma-meta
+wireless_tools

@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-
+sudo pacman -S --needed  --noconfirm - < pacman/pkglist.txt
 ../install_dotbot -c unix_desktop/desktop.conf.yaml
+sudo ../install_dotbot -c unix_desktop/root_desktop.conf.yaml

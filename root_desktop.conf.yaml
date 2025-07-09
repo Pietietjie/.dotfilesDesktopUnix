@@ -1,0 +1,7 @@
+- link:
+    /etc/pkglist_desktop.txt:
+        force: true
+        relink: true
+        if: "[[ \"$EUID\" -eq 0 ]]"
+        path: unix_desktop/pacman/pkglist.txt
+        create: true
