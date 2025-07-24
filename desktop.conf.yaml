@@ -1,4 +1,9 @@
 - link:
+    ~/.local/share/kwin/scripts/:
+        relink: true
+        path: unix_desktop/kde/scripts
+        create: true
+        force: true
     ~/.config/kdeglobals:
         relink: true
         path: unix_desktop/kde/kdeglobals
