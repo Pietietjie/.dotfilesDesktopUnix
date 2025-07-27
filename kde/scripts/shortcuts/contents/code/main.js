@@ -1,4 +1,13 @@
-registerShortcut("newDesktop", "Create New Virtual Desktop", "Meta+Ctrl+D", function() {
-    const currentDesktopCount = workspace.desktops;
-    workspace.addDesktop(currentDesktopCount + 1);
-});
+registerShortcut(
+    "addNewVirtualDesktop",
+    "Add New Virtual Desktop",
+    "Ctrl+Shift+N",
+    function () {
+        callDBus(
+            "org.kde.KWin",
+            "/VirtualDesktopManager",
+            "org.kde.KWin.VirtualDesktopManager",
+            "createDesktop"
+        );
+    }
+);
