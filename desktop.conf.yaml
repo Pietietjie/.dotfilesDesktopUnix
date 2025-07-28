@@ -1,4 +1,9 @@
 - link:
+    ~/.config/dolphinrc:
+        relink: true
+        path: unix_desktop/dolphin/dolphinrc
+        create: true
+        force: true
     ~/.local/share/kwin/scripts/:
         relink: true
         path: unix_desktop/kde/scripts
