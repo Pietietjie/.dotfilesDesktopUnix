@@ -5,6 +5,5 @@ alacritty
 plasma-meta
 wireless_tools
 bluez-utils
-fprintd
 steam
 wireless_tools
