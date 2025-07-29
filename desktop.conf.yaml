@@ -1,4 +1,9 @@
 - link:
+    ~/.config/kglobalshortcutsrc:
+        relink: true
+        path: unix_desktop/kde/kglobalshortcutsrc
+        create: true
+        force: true
     ~/.config/dolphinrc:
         relink: true
         path: unix_desktop/dolphin/dolphinrc
