@@ -1,8 +1,4 @@
 #!/usr/bin/env bash
 ../install_dotbot -c unix_desktop/desktop.conf.yaml
 sudo pacman -S --needed  --noconfirm - < pacman/pkglist.txt
-if ! pacman -Qs sddm-silent-theme > /dev/null; then
-    sudo pacman -S --needed sddm qt6-svg qt6-virtualkeyboard qt6-multimedia-ffmpeg
-    yay --noconfirm -S sddm-silent-theme
-fi
 sudo ../install_dotbot -c unix_desktop/root_desktop.conf.yaml

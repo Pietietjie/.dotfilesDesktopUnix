@@ -5,11 +5,6 @@
         if: "[[ \"$EUID\" -eq 0 ]]"
         path: unix_desktop/pacman/pkglist.txt
         create: true
-    /usr/share/sddm/themes/silent/metadata.desktop:
-        relink: true
-        path: unix_desktop/sddm/silent_metadata.desktop
-        create: true
-        force: true
     /etc/sddm.conf:
         relink: true
         path: unix_desktop/sddm/sddm.conf
