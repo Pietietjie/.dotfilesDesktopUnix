@@ -4,6 +4,11 @@
         path: unix_desktop/kde/kglobalshortcutsrc
         create: true
         force: true
+    ~/.XCompose:
+        relink: true
+        path: unix_desktop/xcompose/.XCompose
+        create: true
+        force: true
     ~/.config/dolphinrc:
         relink: true
         path: unix_desktop/dolphin/dolphinrc
