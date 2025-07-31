@@ -2,3 +2,7 @@
 ../install_dotbot -c unix_desktop/desktop.conf.yaml
 sudo pacman -S --needed  --noconfirm - < pacman/pkglist.txt
 sudo ../install_dotbot -c unix_desktop/root_desktop.conf.yaml
+if [ ! -d /usr/share/sddm/themes/sddm-sugar-candy ]; then
+    sudo git clone https://github.com/Pietietjie/sddm-sugar-candy.git /usr/share/sddm/themes/sddm-sugar-candy --depth 1
+    sudo chmod 777  /usr/share/sddm/themes/sddm-sugar-candy/Backgrounds/tokyo.jpg
+fi
