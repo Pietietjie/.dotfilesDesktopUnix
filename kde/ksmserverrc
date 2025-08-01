@@ -1,0 +1,30 @@
+[General]
+confirmLogout=false
+loginMode=restoreSavedSession
+
+[LegacySession: saved at previous logout]
+count=0
+
+[LegacySession: saved by user]
+count=0
+
+[Session: saved at previous logout]
+clientId1=10142133d9de000175354347200000018920005
+clientId2=10142133d9de000175355678100000018920008
+count=2
+program1=/usr/bin/keepassxc
+program2=firefox
+restartCommand1=/usr/bin/keepassxc,-session,10142133d9de000175354347200000018920005_1753557186_364962
+restartCommand2=/usr/lib/firefox/firefox,--sm-client-id,10142133d9de000175355678100000018920008
+restartStyleHint1=0
+restartStyleHint2=0
+userId1=pietietjie
+userId2=pietietjie
+
+[Session: saved by user]
+clientId1=10142133d9de000175402854200000018290002
+count=1
+program1=firefox
+restartCommand1=/usr/lib/firefox/firefox,--sm-client-id,10142133d9de000175402854200000018290002
+restartStyleHint1=0
+userId1=pietietjie

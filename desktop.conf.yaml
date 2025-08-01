@@ -1,9 +1,4 @@
 - link:
-    ~/.config/Kvantum:
-        relink: true
-        path: unix_desktop/Kvantum/config
-        create: true
-        force: true
     ~/.config/kglobalshortcutsrc:
         relink: true
         path: unix_desktop/kde/kglobalshortcutsrc
@@ -22,6 +17,176 @@
     ~/.local/share/kwin/scripts/:
         relink: true
         path: unix_desktop/kde/scripts
+        create: true
+        force: true
+    ~/.config/arkrc:
+        relink: true
+        path: unix_desktop/kde/arkrc
+        create: true
+        force: true
+    ~/.config/bluedevilglobalrc:
+        relink: true
+        path: unix_desktop/kde/bluedevilglobalrc
+        create: true
+        force: true
+    ~/.config/dolphinrc:
+        relink: true
+        path: unix_desktop/kde/dolphinrc
+        create: true
+        force: true
+    ~/.config/gtk-3.0:
+        relink: true
+        path: unix_desktop/kde/gtk-3.0
+        create: true
+        force: true
+    ~/.config/gtk-4.0:
+        relink: true
+        path: unix_desktop/kde/gtk-4.0
+        create: true
+        force: true
+    ~/.config/kactivitymanagerd-pluginsrc:
+        relink: true
+        path: unix_desktop/kde/kactivitymanagerd-pluginsrc
+        create: true
+        force: true
+    ~/.config/kactivitymanagerd-statsrc:
+        relink: true
+        path: unix_desktop/kde/kactivitymanagerd-statsrc
+        create: true
+        force: true
+    ~/.config/kate-externaltoolspluginrc:
+        relink: true
+        path: unix_desktop/kde/kate-externaltoolspluginrc
+        create: true
+        force: true
+    ~/.config/katerc:
+        relink: true
+        path: unix_desktop/kde/katerc
+        create: true
+        force: true
+    ~/.config/katevirc:
+        relink: true
+        path: unix_desktop/kde/katevirc
+        create: true
+        force: true
+    ~/.config/konsolerc:
+        relink: true
+        path: unix_desktop/kde/konsolerc
+        create: true
+        force: true
+    ~/.config/konsolesshconfig:
+        relink: true
+        path: unix_desktop/kde/konsolesshconfig
+        create: true
+        force: true
+    ~/.config/krunnerrc:
+        relink: true
+        path: unix_desktop/kde/krunnerrc
+        create: true
+        force: true
+    ~/.config/ksmserverrc:
+        relink: true
+        path: unix_desktop/kde/ksmserverrc
+        create: true
+        force: true
+    ~/.config/ktimezonedrc:
+        relink: true
+        path: unix_desktop/kde/ktimezonedrc
+        create: true
+        force: true
+    ~/.config/kxkbrc:
+        relink: true
+        path: unix_desktop/kde/kxkbrc
+        create: true
+        force: true
+    ~/.config/mimeapps.list:
+        relink: true
+        path: unix_desktop/kde/mimeapps.list
+        create: true
+        force: true
+    ~/.config/plasma-localerc:
+        relink: true
+        path: unix_desktop/kde/plasma-localerc
+        create: true
+        force: true
+    ~/.config/plasma-org.kde.plasma.desktop-appletsrc:
+        relink: true
+        path: unix_desktop/kde/plasma-org.kde.plasma.desktop-appletsrc
+        create: true
+        force: true
+    ~/.local/share/plasma-systemmonitor:
+        relink: true
+        path: unix_desktop/kde/plasma-systemmonitor
+        create: true
+        force: true
+    ~/.config/plasmanotifyrc:
+        relink: true
+        path: unix_desktop/kde/plasmanotifyrc
+        create: true
+        force: true
+    ~/.config/spectaclerc:
+        relink: true
+        path: unix_desktop/kde/spectaclerc
+        create: true
+        force: true
+    ~/.config/systemmonitorrc:
+        relink: true
+        path: unix_desktop/kde/systemmonitorrc
+        create: true
+        force: true
+    ~/.config/systemsettingsrc:
+        relink: true
+        path: unix_desktop/kde/systemsettingsrc
+        create: true
+        force: true
+    ~/.config/user-dirs.dirs:
+        relink: true
+        path: unix_desktop/kde/user-dirs.dirs
+        create: true
+        force: true
+    ~/.local/share/user-places.xbel:
+        relink: true
+        path: unix_desktop/kde/user-places.xbel
+        create: true
+        force: true
+    ~/.config/kactivitymanagerdrc:
+        relink: true
+        path: unix_desktop/kde/kactivitymanagerdrc
+        create: true
+        force: true
+    ~/.config/kscreenlockerrc:
+        relink: true
+        path: unix_desktop/kde/kscreenlockerrc
+        create: true
+        force: true
+    ~/.config/kwinrc:
+        relink: true
+        path: unix_desktop/kde/kwinrc
+        create: true
+        force: true
+    ~/.config/gtkrc:
+        relink: true
+        path: unix_desktop/kde/gtkrc
+        create: true
+        force: true
+    ~/.config/gtkrc-2.0:
+        relink: true
+        path: unix_desktop/kde/gtkrc-2.0
+        create: true
+        force: true
+    ~/.config/ksplashrc:
+        relink: true
+        path: unix_desktop/kde/ksplashrc
+        create: true
+        force: true
+    ~/.config/Trolltech.conf:
+        relink: true
+        path: unix_desktop/kde/Trolltech.conf
+        create: true
+        force: true
+    ~/.config/plasmarc:
+        relink: true
+        path: unix_desktop/kde/plasmarc
         create: true
         force: true
     ~/.config/kdeglobals:

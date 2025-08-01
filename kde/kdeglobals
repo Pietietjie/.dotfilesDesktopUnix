@@ -140,12 +140,17 @@ Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x8c\
 [General]
 ColorSchemeHash=d7bb305b91e7dd55dd16808f6dbc4c8d48b8d305
 UseSystemBell=true
-
-[Icons]
-Theme=breeze-dark
+XftHintStyle=hintslight
+XftSubPixel=none
+fixed=FiraCode Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+font=FiraCode Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+menuFont=FiraCode Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+smallestReadableFont=FiraCode Nerd Font,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+toolBarFont=FiraCode Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 
 [KDE]
 AnimationDurationFactor=0
+LookAndFeelPackage=com.github.Jayy-Dev.Plasma.Tokyo.Night
 ShowDeleteCommand=false
 
 [KFileDialog Settings]
@@ -178,6 +183,7 @@ MaximumRemoteSize=0
 [WM]
 activeBackground=26,27,38
 activeBlend=215,218,224
+activeFont=FiraCode Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 activeForeground=215,218,224
 inactiveBackground=26,27,38
 inactiveBlend=110,108,124
