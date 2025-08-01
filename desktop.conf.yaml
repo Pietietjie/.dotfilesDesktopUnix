@@ -1,4 +1,9 @@
 - link:
+    ~/.config/Kvantum:
+        relink: true
+        path: unix_desktop/Kvantum/config
+        create: true
+        force: true
     ~/.config/kglobalshortcutsrc:
         relink: true
         path: unix_desktop/kde/kglobalshortcutsrc
