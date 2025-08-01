@@ -7,3 +7,4 @@ wireless_tools
 bluez-utils
 steam
 wireless_tools
+qt6-svg

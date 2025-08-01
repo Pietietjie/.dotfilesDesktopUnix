@@ -18,7 +18,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][67][General]
-positions={"1920x1080":[]}
+positions={"1800x1125":[],"1920x1080":[]}
 
 [Containments][67][Wallpaper][org.kde.image][General]
 Image=/home/pietietjie/.dotfiles/unix_desktop/wallpapers/call_of_the_night.jpeg
@@ -152,14 +152,14 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][68][Applets][73][Applets][89][Configuration]
-PreloadWeight=55
+PreloadWeight=39
 
 [Containments][68][Applets][73][Applets][90]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][68][Applets][73][Applets][90][Configuration]
-PreloadWeight=55
+PreloadWeight=39
 
 [Containments][68][Applets][73][Applets][91]
 immutability=1
@@ -173,7 +173,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][68][Applets][73][Applets][92][Configuration]
-PreloadWeight=60
+PreloadWeight=52
 
 [Containments][68][Applets][73][Applets][93]
 immutability=1
@@ -183,8 +183,8 @@ plugin=org.kde.plasma.networkmanagement
 PreloadWeight=55
 
 [Containments][68][Applets][73][General]
-extraItems=org.kde.plasma.manage-inputmethod,org.kde.plasma.cameraindicator,org.kde.plasma.printmanager,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth,org.kde.plasma.notifications,org.kde.plasma.brightness,org.kde.plasma.keyboardindicator,org.kde.plasma.vault,org.kde.plasma.clipboard,org.kde.plasma.weather,org.kde.plasma.keyboardlayout,org.kde.kdeconnect,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.kscreen
-knownItems=org.kde.plasma.manage-inputmethod,org.kde.plasma.cameraindicator,org.kde.plasma.printmanager,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth,org.kde.plasma.notifications,org.kde.plasma.brightness,org.kde.plasma.keyboardindicator,org.kde.plasma.vault,org.kde.plasma.clipboard,org.kde.plasma.weather,org.kde.plasma.keyboardlayout,org.kde.kdeconnect,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.kscreen
+extraItems=org.kde.plasma.manage-inputmethod,org.kde.plasma.cameraindicator,org.kde.plasma.printmanager,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth,org.kde.plasma.notifications,org.kde.plasma.brightness,org.kde.plasma.keyboardindicator,org.kde.plasma.vault,org.kde.plasma.clipboard,org.kde.plasma.weather,org.kde.plasma.keyboardlayout,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.kscreen
+knownItems=org.kde.plasma.manage-inputmethod,org.kde.plasma.cameraindicator,org.kde.plasma.printmanager,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth,org.kde.plasma.notifications,org.kde.plasma.brightness,org.kde.plasma.keyboardindicator,org.kde.plasma.vault,org.kde.plasma.clipboard,org.kde.plasma.weather,org.kde.plasma.keyboardlayout,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.kscreen
 
 [Containments][68][Applets][87]
 immutability=1
@@ -218,7 +218,7 @@ visibilityUnit=2007
 source=bbcukmet|weather|Cape Town, South Africa, ZA|3369157
 
 [Containments][68][General]
-AppletOrder=71;103;69;102;72;73;98;87
+AppletOrder=71;103;69;102;72;73;98;87;70
 
 [ScreenMapping]
 itemsOnDisabledScreens=

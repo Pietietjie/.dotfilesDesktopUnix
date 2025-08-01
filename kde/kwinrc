@@ -1,9 +1,10 @@
 [Activities][LastVirtualDesktop]
-c68bd4e6-4f3f-4d0c-9cf1-67139d6cbd0f=690f7d76-b9f5-494f-8e23-bdb0b529daf6
+4ab181d9-9260-430f-8568-66a92a57ac34=209b128f-7b6b-4991-8fc3-71d8b147ca7b
+c68bd4e6-4f3f-4d0c-9cf1-67139d6cbd0f=209b128f-7b6b-4991-8fc3-71d8b147ca7b
 
 [Desktops]
-Id_1=1ac70167-3b66-421d-8589-34e72e7054d8
-Id_2=690f7d76-b9f5-494f-8e23-bdb0b529daf6
+Id_1=209b128f-7b6b-4991-8fc3-71d8b147ca7b
+Id_2=41ddba5e-e7f5-413d-91a1-598079f6a267
 Number=2
 Rows=1
 
@@ -26,6 +27,12 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.375},{"layoutDirection
 [Tiling][1ac70167-3b66-421d-8589-34e72e7054d8][fe27066c-0eda-4cbf-8e06-4e2ccd6e92f6]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][209b128f-7b6b-4991-8fc3-71d8b147ca7b][d3fc765b-c788-4811-bb13-43c233e28e32]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][41ddba5e-e7f5-413d-91a1-598079f6a267][d3fc765b-c788-4811-bb13-43c233e28e32]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][690f7d76-b9f5-494f-8e23-bdb0b529daf6][68f57191-ca35-4f21-8cc7-ec58c2a0c98d]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
@@ -43,7 +50,7 @@ ActivationDesktopPolicy=2
 RollOverDesktops=true
 
 [Xwayland]
-Scale=1
+Scale=1.6
 
 [org.kde.kdecoration2]
 theme=__aurorae__svg__TokyoNight
