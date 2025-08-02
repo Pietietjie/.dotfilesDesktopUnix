@@ -1,10 +1,24 @@
 #!/usr/bin/env bash
 ../install_dotbot -c unix_desktop/desktop.conf.yaml
-sudo pacman -S --needed  --noconfirm - < pacman/pkglist.txt
+sudo pacman -S --needed  --noconfirm ark dolphin firefox alacritty plasma-meta wireless_tools bluez-utils steam wireless_tools qt6-svg
 sudo ../install_dotbot -c unix_desktop/root_desktop.conf.yaml
 if [ ! -d /usr/share/sddm/themes/sddm-sugar-candy ]; then
     sudo git clone https://github.com/Pietietjie/sddm-sugar-candy.git /usr/share/sddm/themes/sddm-sugar-candy --depth 1
     sudo pacman -S --needed sddm qt5-graphicaleffects qt5-quickcontrols2 qt5-svg qt5-wayland
     sudo chmod 777  /usr/share/sddm/themes/sddm-sugar-candy/Backgrounds/tokyo.jpg
     sudo chmod 777  /usr/share/sddm/themes/sddm-sugar-candy
+fi
+
+if ! command -v steam &> /dev/null; then
+    read -p "Steam is not installed. Do you want to install it? (y/n): " choice
+    if [[ "$choice" =~ ^[Yy]$ ]]; then
+        echo "Enabling multilib repository in pacman.conf..."
+        sudo sed -i '/^#\[multilib\]/{N;s/#\[multilib\]\n#Include = \/etc\/pacman\.d\/mirrorlist/\[multilib\]\nInclude = \/etc\/pacman.d\/mirrorlist/}' /etc/pacman.conf
+        sudo rm /usr/share/libalpm/hooks -r
+        echo "Installing Steam..."
+        sudo pacman -Sy steam
+        echo "Steam has been installed"
+    else
+        echo "Steam installation skipped."
+    fi
 fi

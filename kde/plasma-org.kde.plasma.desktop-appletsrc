@@ -138,7 +138,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][68][Applets][73][Applets][85][Configuration]
-PreloadWeight=60
+PreloadWeight=65
 
 [Containments][68][Applets][73][Applets][85][Configuration][General]
 migrated=true
@@ -152,14 +152,14 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][68][Applets][73][Applets][89][Configuration]
-PreloadWeight=39
+PreloadWeight=23
 
 [Containments][68][Applets][73][Applets][90]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][68][Applets][73][Applets][90][Configuration]
-PreloadWeight=39
+PreloadWeight=23
 
 [Containments][68][Applets][73][Applets][91]
 immutability=1
@@ -222,3 +222,4 @@ AppletOrder=71;103;69;102;72;73;98;87;70
 
 [ScreenMapping]
 itemsOnDisabledScreens=
+screenMapping=desktop:/steam.desktop,0,c68bd4e6-4f3f-4d0c-9cf1-67139d6cbd0f

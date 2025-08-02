@@ -3,3 +3,9 @@ ordering=preferred://browser,applications:systemsettings.desktop,applications:or
 
 [Favorites-org.kde.plasma.kickoff.favorites.instance-3-global]
 ordering=preferred://browser,applications:systemsettings.desktop,applications:org.kde.dolphin.desktop
+
+[Favorites-org.kde.plasma.kickoff.favorites.instance-69-c68bd4e6-4f3f-4d0c-9cf1-67139d6cbd0f]
+ordering=
+
+[Favorites-org.kde.plasma.kickoff.favorites.instance-69-global]
+ordering=
