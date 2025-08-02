@@ -62,6 +62,7 @@ Title=Disks
 chartFace=org.kde.ksysguard.horizontalbars
 
 [Face-106123488899456][SensorColors]
+disk/2b8e488c-23fa-428d-82fe-d3a20652f1c6/used=164,187,239
 disk/5a15e2ef-193c-4607-817b-08608a51a84c/used=164,187,239
 
 [Face-106123488899456][Sensors]

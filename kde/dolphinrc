@@ -1,3 +1,6 @@
+[CompactMode]
+PreviewSize=32
+
 [DetailsMode]
 PreviewSize=16
 
@@ -8,6 +11,9 @@ ShowHiddenFiles=true
 BrowseThroughArchives=true
 Version=202
 ViewPropsTimestamp=2025,7,26,16,40,24.567
+
+[IconsMode]
+PreviewSize=80
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
