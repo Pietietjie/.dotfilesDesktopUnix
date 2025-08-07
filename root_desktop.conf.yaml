@@ -3,10 +3,10 @@
         force: true
         relink: true
         if: "[[ \"$EUID\" -eq 0 ]]"
-        path: unix_desktop/pacman/pkglist.txt
+        path: pacman/pkglist.txt
         create: true
     /etc/sddm.conf:
         relink: true
-        path: unix_desktop/sddm/sddm.conf
+        path: sddm/sddm.conf
         create: true
         force: true

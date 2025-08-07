@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-../install_dotbot -c unix_desktop/desktop.conf.yaml
+./install_dotbot -c desktop.conf.yaml
 sudo pacman -S --needed  --noconfirm ark dolphin firefox alacritty plasma-meta wireless_tools bluez-utils steam wireless_tools qt6-svg
-sudo ../install_dotbot -c unix_desktop/root_desktop.conf.yaml
+sudo ./install_dotbot -c root_desktop.conf.yaml
 if [ ! -d /usr/share/sddm/themes/sddm-sugar-candy ]; then
     sudo git clone https://github.com/Pietietjie/sddm-sugar-candy.git /usr/share/sddm/themes/sddm-sugar-candy --depth 1
     sudo pacman -S --needed sddm qt5-graphicaleffects qt5-quickcontrols2 qt5-svg qt5-wayland

@@ -1,226 +1,226 @@
 - link:
     ~/.config/kglobalshortcutsrc:
         relink: true
-        path: unix_desktop/kde/kglobalshortcutsrc
+        path: kde/kglobalshortcutsrc
         create: true
         force: true
     ~/.XCompose:
         relink: true
-        path: unix_desktop/xcompose/.XCompose
+        path: xcompose/.XCompose
         create: true
         force: true
     ~/.config/dolphinrc:
         relink: true
-        path: unix_desktop/dolphin/dolphinrc
+        path: dolphin/dolphinrc
         create: true
         force: true
     ~/.local/share/kwin/scripts/:
         relink: true
-        path: unix_desktop/kde/scripts
+        path: kde/scripts
         create: true
         force: true
     ~/.config/arkrc:
         relink: true
-        path: unix_desktop/kde/arkrc
+        path: kde/arkrc
         create: true
         force: true
     ~/.config/bluedevilglobalrc:
         relink: true
-        path: unix_desktop/kde/bluedevilglobalrc
+        path: kde/bluedevilglobalrc
         create: true
         force: true
     ~/.config/dolphinrc:
         relink: true
-        path: unix_desktop/kde/dolphinrc
+        path: kde/dolphinrc
         create: true
         force: true
     ~/.config/gtk-3.0:
         relink: true
-        path: unix_desktop/kde/gtk-3.0
+        path: kde/gtk-3.0
         create: true
         force: true
     ~/.config/gtk-4.0:
         relink: true
-        path: unix_desktop/kde/gtk-4.0
+        path: kde/gtk-4.0
         create: true
         force: true
     ~/.config/kactivitymanagerd-pluginsrc:
         relink: true
-        path: unix_desktop/kde/kactivitymanagerd-pluginsrc
+        path: kde/kactivitymanagerd-pluginsrc
         create: true
         force: true
     ~/.config/kactivitymanagerd-statsrc:
         relink: true
-        path: unix_desktop/kde/kactivitymanagerd-statsrc
+        path: kde/kactivitymanagerd-statsrc
         create: true
         force: true
     ~/.config/kate-externaltoolspluginrc:
         relink: true
-        path: unix_desktop/kde/kate-externaltoolspluginrc
+        path: kde/kate-externaltoolspluginrc
         create: true
         force: true
     ~/.config/katerc:
         relink: true
-        path: unix_desktop/kde/katerc
+        path: kde/katerc
         create: true
         force: true
     ~/.config/katevirc:
         relink: true
-        path: unix_desktop/kde/katevirc
+        path: kde/katevirc
         create: true
         force: true
     ~/.config/konsolerc:
         relink: true
-        path: unix_desktop/kde/konsolerc
+        path: kde/konsolerc
         create: true
         force: true
     ~/.config/konsolesshconfig:
         relink: true
-        path: unix_desktop/kde/konsolesshconfig
+        path: kde/konsolesshconfig
         create: true
         force: true
     ~/.config/krunnerrc:
         relink: true
-        path: unix_desktop/kde/krunnerrc
+        path: kde/krunnerrc
         create: true
         force: true
     ~/.config/ksmserverrc:
         relink: true
-        path: unix_desktop/kde/ksmserverrc
+        path: kde/ksmserverrc
         create: true
         force: true
     ~/.config/ktimezonedrc:
         relink: true
-        path: unix_desktop/kde/ktimezonedrc
+        path: kde/ktimezonedrc
         create: true
         force: true
     ~/.config/kxkbrc:
         relink: true
-        path: unix_desktop/kde/kxkbrc
+        path: kde/kxkbrc
         create: true
         force: true
     ~/.config/mimeapps.list:
         relink: true
-        path: unix_desktop/kde/mimeapps.list
+        path: kde/mimeapps.list
         create: true
         force: true
     ~/.config/plasma-localerc:
         relink: true
-        path: unix_desktop/kde/plasma-localerc
+        path: kde/plasma-localerc
         create: true
         force: true
     ~/.config/plasma-org.kde.plasma.desktop-appletsrc:
         relink: true
-        path: unix_desktop/kde/plasma-org.kde.plasma.desktop-appletsrc
+        path: kde/plasma-org.kde.plasma.desktop-appletsrc
         create: true
         force: true
     ~/.local/share/plasma-systemmonitor:
         relink: true
-        path: unix_desktop/kde/plasma-systemmonitor
+        path: kde/plasma-systemmonitor
         create: true
         force: true
     ~/.config/plasmanotifyrc:
         relink: true
-        path: unix_desktop/kde/plasmanotifyrc
+        path: kde/plasmanotifyrc
         create: true
         force: true
     ~/.config/spectaclerc:
         relink: true
-        path: unix_desktop/kde/spectaclerc
+        path: kde/spectaclerc
         create: true
         force: true
     ~/.config/systemmonitorrc:
         relink: true
-        path: unix_desktop/kde/systemmonitorrc
+        path: kde/systemmonitorrc
         create: true
         force: true
     ~/.config/systemsettingsrc:
         relink: true
-        path: unix_desktop/kde/systemsettingsrc
+        path: kde/systemsettingsrc
         create: true
         force: true
     ~/.config/user-dirs.dirs:
         relink: true
-        path: unix_desktop/kde/user-dirs.dirs
+        path: kde/user-dirs.dirs
         create: true
         force: true
     ~/.local/share/user-places.xbel:
         relink: true
-        path: unix_desktop/kde/user-places.xbel
+        path: kde/user-places.xbel
         create: true
         force: true
     ~/.config/kactivitymanagerdrc:
         relink: true
-        path: unix_desktop/kde/kactivitymanagerdrc
+        path: kde/kactivitymanagerdrc
         create: true
         force: true
     ~/.config/kscreenlockerrc:
         relink: true
-        path: unix_desktop/kde/kscreenlockerrc
+        path: kde/kscreenlockerrc
         create: true
         force: true
     ~/.config/kwinrc:
         relink: true
-        path: unix_desktop/kde/kwinrc
+        path: kde/kwinrc
         create: true
         force: true
     ~/.config/gtkrc:
         relink: true
-        path: unix_desktop/kde/gtkrc
+        path: kde/gtkrc
         create: true
         force: true
     ~/.config/gtkrc-2.0:
         relink: true
-        path: unix_desktop/kde/gtkrc-2.0
+        path: kde/gtkrc-2.0
         create: true
         force: true
     ~/.config/ksplashrc:
         relink: true
-        path: unix_desktop/kde/ksplashrc
+        path: kde/ksplashrc
         create: true
         force: true
     ~/.config/Trolltech.conf:
         relink: true
-        path: unix_desktop/kde/Trolltech.conf
+        path: kde/Trolltech.conf
         create: true
         force: true
     ~/.config/plasmarc:
         relink: true
-        path: unix_desktop/kde/plasmarc
+        path: kde/plasmarc
         create: true
         force: true
     ~/.config/kdeglobals:
         relink: true
-        path: unix_desktop/kde/kdeglobals
+        path: kde/kdeglobals
         create: true
         force: true
     ~/.config/kded5rc:
         relink: true
-        path: unix_desktop/kde/kded5rc
+        path: kde/kded5rc
         create: true
         force: true
     ~/.config/baloofilerc:
         relink: true
-        path: unix_desktop/kde/baloofilerc
+        path: kde/baloofilerc
         create: true
         force: true
     ~/.config/gtk-4.0/:
         relink: true
-        path: unix_desktop/kde/gtk-4.0/
+        path: kde/gtk-4.0/
         create: true
         force: true
     ~/.local/share/color-schemes/:
         relink: true
-        path: unix_desktop/kde/color-schemes/
+        path: kde/color-schemes/
         create: true
         force: true
     ~/.config/gtk-3.0/:
         relink: true
-        path: unix_desktop/kde/gtk-3.0/
+        path: kde/gtk-3.0/
         create: true
         force: true
     ~/.config/plasma-localerc:
         relink: true
-        path: unix_desktop/plasma/plasma-localerc
+        path: plasma/plasma-localerc
         create: true
         force: true

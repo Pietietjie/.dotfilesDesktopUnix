@@ -416,7 +416,7 @@ positions={"1800x1125":["1","16"],"1920x1080":["1","17"]}
 sortMode=-1
 
 [Containments][67][Wallpaper][org.kde.image][General]
-Image=/home/pietietjie/.dotfiles/unix_desktop/wallpapers/call_of_the_night.jpeg
+Image=/home/pietietjie/.dotfilesKdeTokyoNight/wallpapers/call_of_the_night.jpeg
 SlidePaths=/home/pietietjie/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [Containments][68]
